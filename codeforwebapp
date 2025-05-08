@@ -150,7 +150,7 @@
       }
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbxIs1MDdQf9DSR_4P4nzU_BpfBS6LJdnh-m1kELqTiuSq5_LcbvG_QDZnhVzPsY2Lxf/exec?regno=" + encodeURIComponent(regNo));
+        const response = await fetch("https://script.google.com/macros/s/******************************************************=" + encodeURIComponent(regNo));
         const data = await response.json();
 
         if (data.status === "not found") {
